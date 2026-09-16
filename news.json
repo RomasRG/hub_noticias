@@ -1,0 +1,29 @@
+[
+    {
+        "title":"Boas vindas",
+        "content":"./content.txt",
+        "resume":"Um artigo de boas vindas.",
+        "date":"16 de setembro de 2026",
+        "download":"./content.txt",
+        "background":"#A9A9A9",
+        "imagem":"./imagem.jpg"
+    },
+    {
+        "title":"Primeiro artigo",
+        "content":"./content.txt",
+        "resume":"Meu primeiro artigo.",
+        "date":"17 de setembro de 2026",
+        "download":"./content.txt",
+        "background":"#DEB887",
+        "imagem":"./primeiro.png"
+    },
+    {
+        "title":"Segundo artigo",
+        "content":"./content.txt",
+        "resume":"Um novo artigo",
+        "date":"18 de setembro de 2026",
+        "download":"./content.txt",
+        "background":"#DEB887",
+        "imagem":"./novo.jpg"
+    }
+]
