@@ -129,13 +129,18 @@ button:hover{
     align-items: center;
 }
 
-@media (min-width: 412px) {
+@media (max-width: 492px) {
     .corpo article{
         max-width: 100%; 
     }
     .corpo article img{
         max-width: 100%;
         max-height: 100%;
-        padding: 10px;
+        padding: 0px;
+    }
+
+    .corpo article *{
+        max-width: 100%;
+        max-height: 100%;
     }
 }
