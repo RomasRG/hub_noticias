@@ -96,4 +96,10 @@ for (const botao of lista){
 }
 }
 
+document.querySelectorAll('*').forEach(el => {
+    if (el.offsetWidth > window.innerWidth) {
+        console.log(el);
+    }
+});
+
 
