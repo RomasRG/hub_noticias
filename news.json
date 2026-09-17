@@ -1,29 +1,29 @@
 [
     {
-        "title":"Boas vindas",
+        "title":"Polícia mira ex-vereador Milton Leite em investigação contra PCC em SP",
         "content":"./content.txt",
-        "resume":"Um artigo de boas vindas.",
-        "date":"16 de setembro de 2026",
+        "resume":"Ex-vereador nega que esteja foragido, diz que está viajando e que vai se apresentar às autoridades em até 24 horas.",
+        "date":"17/09/2026 | 06h22",
         "download":"./content.txt",
         "background":"#A9A9A9",
-        "imagem":"./imagem.jpg"
+        "imagem":"./noticia1.png"
     },
     {
-        "title":"Primeiro artigo",
-        "content":"./content.txt",
-        "resume":"Meu primeiro artigo.",
-        "date":"17 de setembro de 2026",
-        "download":"./content.txt",
+        "title":"Ed Sheeran: veja quem foi contra e quem defendeu expulsão de rapper da turnê",
+        "content":"./noticia2.txt",
+        "resume":"Decisão de afastar rapper Macklemore gerou reação em cadeia de músicos convidados, deixando turnê sem atrações de abertura e sem banda que o acompanhava em parte do show.",
+        "date":"17/09/2026 | 04h00",
+        "download":"./noticia2.txt",
         "background":"#DEB887",
-        "imagem":"./primeiro.png"
+        "imagem":"./noticia2.png"
     },
     {
-        "title":"Segundo artigo",
-        "content":"./content.txt",
-        "resume":"Um novo artigo",
-        "date":"18 de setembro de 2026",
-        "download":"./content.txt",
+        "title":"Morre Peter Max, artista psicodélico símbolo do movimento hippie, aos 88 anos",
+        "content":"./noticia3.txt",
+        "resume":"Suas obras de cores vibrantes viraram símbolo da contracultura nos EUA e estamparam de pôsteres de aviões e navios.",
+        "date":"17/09/2026 | 03h02",
+        "download":"./noticia3.txt",
         "background":"#DEB887",
-        "imagem":"./novo.jpg"
+        "imagem":"./noticia3.png"
     }
 ]

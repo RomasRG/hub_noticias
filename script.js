@@ -61,15 +61,30 @@ for (const noticia of noticias){
 if(document.getElementById("lista")){
 for(const article of site.paginas){
     const lista = document.getElementById("lista");
-    //console.log(lista);
     const element = document.createElement('li');
+    const image = document.createElement('img');
+    const container = document.createElement('div');
+    const noticia = document.createElement('div');
     const bLink = document.createElement('button');
-    bLink.textContent = "Ir para a página";
+    const divLegenda = document.createElement('div');
+
+    element.className = "title";
+    image.src = article.image;
+    image.className = "banner";
+    bLink.textContent = "Visualizar";
     bLink.id = article.title;
     bLink.className = "link";
     element.textContent = article.title;
-    lista.append(element);
-    lista.append(bLink);
+    divLegenda.append(element);
+    divLegenda.append(bLink);
+    container.append(image);
+    container.append(divLegenda)
+    noticia.append(container);
+    divLegenda.className = "legenda";
+    container.className = "container";
+    noticia.className = "noticia";
+    lista.append(noticia);
+    
 }
 }
 
