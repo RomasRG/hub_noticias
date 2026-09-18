@@ -49,7 +49,6 @@ for (const noticia of noticias){
     article.background = noticia.background;
     article.title = noticia.title;
     article.resume = noticia.resume;
-    console.log(noticia.content);
     article.content = await fetch(noticia.content)
     .then((res) => {return res.text()}).catch((e) => {console.log("Erro: "+e)});
     article.date = noticia.date;
@@ -67,6 +66,13 @@ for(const article of site.paginas){
     const noticia = document.createElement('div');
     const bLink = document.createElement('button');
     const divLegenda = document.createElement('div');
+    
+    if(document.getElementById("mainSection")){
+    const section = document.getElementById("mainSection");
+    let tamanho = parseInt(section.offsetHeight);
+    tamanho += 500;
+    section.style.height = `${tamanho}px`;
+    }
 
     element.className = "title";
     image.src = article.image;
@@ -91,15 +97,6 @@ for(const article of site.paginas){
 const lista = document.getElementsByClassName("link");
 if (lista){
 for (const botao of lista){
-    console.log(botao.id);
     botao.addEventListener('click', () => {sendArticle(botao.id)})
 }
 }
-
-document.querySelectorAll('*').forEach(el => {
-    if (el.offsetWidth > window.innerWidth) {
-        console.log(el);
-    }
-});
-
-

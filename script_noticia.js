@@ -13,8 +13,6 @@ const subtitle = document.getElementById("subtitle");
 const date = document.getElementById("date");
 const download = document.getElementById("download");
 
-
-console.log(article);
 title.textContent = article.title;
 content.textContent = article.content;
 background.style.backgroundColor = article.background;
